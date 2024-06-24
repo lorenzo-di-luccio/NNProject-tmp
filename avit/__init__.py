@@ -10,7 +10,8 @@ from .models import (
     AViTForImageClassification
 )
 from .lightning_models import (
-    DeiTModel
+    DeiTModel,
+    AViTModel
 )
 
 HF_MODEL_NAME = "facebook/deit-tiny-distilled-patch16-224"
@@ -33,3 +34,4 @@ AVIT_KWARGS = {
     "alpha_distr": 0.1,
     "alpha_ponder": 5.e-4
 }
+SEED = 0xdeadbeef
