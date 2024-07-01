@@ -13,6 +13,13 @@ from .lightning_models import (
     DeiTModel,
     AViTModel
 )
+from .metric_plots import (
+    compute_agg_metrics,
+    load_metrics,
+    save_metrics,
+    metrics_for_plot,
+    plot
+)
 
 HF_MODEL_NAME = "facebook/deit-tiny-distilled-patch16-224"
 AVIT_KWARGS = {

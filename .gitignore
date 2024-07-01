@@ -1,3 +1,6 @@
 .vscode/
 avit/__pycache__/
 hf/
+assets/AViT-tiny/*.ckpt
+assets/AViT-tiny-finetuned/*.ckpt
+assets/DeiT-tiny/*.ckpt
