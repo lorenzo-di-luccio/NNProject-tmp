@@ -41,4 +41,6 @@ AVIT_KWARGS = {
     "alpha_distr": 0.1,
     "alpha_ponder": 5.e-4
 }
+IMAGENET_MEAN = [0.485, 0.456, 0.406]
+IMAGENET_STD = [0.229, 0.224, 0.225]
 SEED = 0xdeadbeef
